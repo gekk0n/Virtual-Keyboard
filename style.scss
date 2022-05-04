@@ -1,0 +1,36 @@
+html{
+    font: 15px/13px "Georgia";
+    text-align: center;
+}
+
+.input{
+    margin-top: 50px;
+    margin: 0 auto;
+    height: 200px;
+    width: 800px;
+    margin: 10px;
+}
+.keyboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    width: 1000px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:lightgrey;
+}
+.key{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    width: 58px;
+    height: 58px;
+    margin: 5px;
+    &:hover{
+        background-color: darkgrey;
+    }
+}
