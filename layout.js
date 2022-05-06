@@ -12,6 +12,6 @@ export function createHeader() {
     HEADER.append(P1)
 
     const P2 = document.createElement('p')
-    P2.innerText = `Для переключения языка: Left Shift + Ctrl`
+    P2.innerText = `Для переключения языка: LShift + LCtrl`
     HEADER.append(P2)
 }

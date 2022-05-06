@@ -68,13 +68,6 @@ html {
           transform: scale(0.9);
 }
 
-.pressed {
-  background-color: #c8c8c8;
-  -webkit-transform: scale(0.9);
-      -ms-transform: scale(0.9);
-          transform: scale(0.9);
-}
-
 .Backspace,
 .Tab,
 .CapsLock,
@@ -89,6 +82,13 @@ html {
 .MetaRight,
 .ControlRight {
   background-color: darkgrey;
+}
+
+.pressed {
+  background-color: #c8c8c8;
+  -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+          transform: scale(0.9);
 }
 
 .Tab {
