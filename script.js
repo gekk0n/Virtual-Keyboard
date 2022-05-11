@@ -151,3 +151,4 @@ document.addEventListener('keydown', (event) => {
     INPUT.value += '    ';
   }
 });
+console.log('https://github.com/gekk0n/Virtual-Keyboard/pull/2')
